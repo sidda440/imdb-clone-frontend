@@ -1,6 +1,191 @@
-nav{
+nav {
     background-color: #121212;
+   
 }
 nav .nav-item .nav-link{
-    color:#FFF;
+    color: #fff;
+}
+/* nav .nav-item .nav-link .active */
+.container-fluid{
+    text-decoration: none;
+}
+.space1{
+    margin: 3px 10px;
+}
+nav .colour{
+    background-color: #121212;
+}
+
+.col-1a{
+    background-color: #1a1a1a;
+}
+
+nav .nav-item .nav-link{
+    color: #fff;
+}
+nav .nav-item .nav-link .active{
+
+}
+.navbar{
+    color: white !important;
+}
+
+
+.bar-height{
+/* height: 40px; */
+width: 23px;
+  
+}
+
+.bookmark-height{
+  width: 35px;
+  
+}
+
+.mini-bar{
+    height: 25px;
+    
+}
+
+/* utility classes */
+/* .link-buttons{
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-top: 5px;
+    width: 55px;
+} */
+
+.hr1{
+    width: 2px !important;
+}
+.g-img {
+    width: 23px !important;
+    height: auto;
+    margin: 5px 15px;
+}
+.imdb-logo{
+    width: 50px;
+    height: auto;
+margin:  3px 15px;
+
+}
+
+.s-items{
+    width: 400px;
+}
+
+.card-color{
+    background-color:rgba(26, 26, 26, 1);
+}
+
+.card-btn-style{
+    background-color:rgba(44, 44, 44, 1);
+border-radius: 18px;
+width: 135px;
+}
+.card-btn-style:hover{
+    background-color:rgb(54, 54, 54);
+    transition: all 0.3s ease-in-out;
+}
+
+/* .book-svg{
+ font-size: 40px;
+ border: none;
+} */
+
+.r-b{
+    border: 1px solid black;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.bookmark-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* padding: 8px; */
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .bookmark-icon i {
+    color: white;
+    font-size: 50px;
+    border: none;
+  }
+
+  .position-absolute-bookmark{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 33px;
+    opacity: 0.8;
+  }
+  
+  .hover-trailer:hover{
+
+cursor: pointer;
+background-color: #2b2a2a;
+
+  }
+
+  .hover-trailer{
+border-radius: 23px;
+width: 100px;
+height: 40px;
+  }
+
+  .hover-exclaim{
+height: 40px;
+width: 40px;
+background-color: #1a1a1a;
+border: none;
+  }
+
+  .hover-exclaim:hover{
+    cursor: pointer;
+    background-color: #2b2a2a;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .popular-interest-text{
+padding: 7px !important;
+  }
+  .popular-interest-text p:hover{
+    text-decoration: underline;
+  }
+
+.exclusive-position{
+    position: relative;
+}
+
+  .play-circle-s{
+    position: absolute !important;
+    bottom: 115px;
+    left: 20px;
+  }
+
+  .exclusive-position img {
+    width: 100%; /* Ensures it fits within its column */
+    /* Limits how large the image can get */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+  }
+
+  .exclusive-videos a .play-circle-s:hover{
+    color: #f5c518 !important;
+
+  }
+
+  .link-ex-videos:hover{
+text-decoration: underline;
+  }
+
+.rotate-i{
+    transform: rotate(140deg);
 }
